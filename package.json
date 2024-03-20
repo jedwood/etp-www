@@ -1,0 +1,12 @@
+{
+  "name": "etp-www",
+  "version": "1.0.0",
+  "description": "Website for EasyTaxPlanning.com",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "cp src/index.html public/index.html; cp src/output.css public/output.css; cp src/img/* public/img/"
+  },
+  "author": "",
+  "license": "ISC"
+}
